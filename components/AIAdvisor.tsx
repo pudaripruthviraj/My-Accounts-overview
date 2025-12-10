@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Bot, Sparkles, Send, Loader2 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import { getFinancialAdvice } from '../services/geminiService';
+// import { getFinancialAdvice } from '../services/geminiService';
 import { Transaction, Account } from '../types';
 
 interface AIAdvisorProps {

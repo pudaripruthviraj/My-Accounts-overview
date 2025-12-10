@@ -100,3 +100,7 @@ export const INCOME_CATEGORIES = [
   Category.Savings, // Sometimes moving from savings is treated as inflow in simple apps
   Category.Other
 ];
+
+// Predefined data for localStorage initialization
+export const financeFlowAccounts = [{"id":"acc_1","name":"Primary Checking","institution":"Chase","type":"checking","balance":4500.5,"identifier":"john.doe@chase","lastSynced":"2025-12-10T17:34:18.011Z"},{"id":"acc_2","name":"High Yield Savings","institution":"Ally","type":"savings","balance":12000,"identifier":"john.savings@ally","lastSynced":"2025-12-10T17:34:18.011Z"},{"id":"acc_3","name":"Sapphire Preferred","institution":"Chase","type":"credit","balance":1250,"identifier":"xxx-xxx-4242","lastSynced":"2025-12-10T17:34:18.011Z"}]
+export const financeFlowTransactions = [{"id":"1","amount":5000,"type":"income","category":"Salary","date":"2025-12-01T17:34:18.011Z","description":"Monthly Salary"},{"id":"2","amount":1200,"type":"expense","category":"Housing","date":"2025-12-02T17:34:18.011Z","description":"Rent Payment"},{"id":"3","amount":150,"type":"expense","category":"Utilities","date":"2025-12-05T17:34:18.011Z","description":"Electric Bill"},{"id":"4","amount":400,"type":"expense","category":"Food","date":"2025-12-10T17:34:18.011Z","description":"Groceries"},{"id":"5","amount":100,"type":"expense","category":"Entertainment","date":"2025-12-12T17:34:18.011Z","description":"Movie Night"},{"id":"6","amount":50,"type":"expense","category":"Transportation","date":"2025-12-15T17:34:18.011Z","description":"Uber"}]

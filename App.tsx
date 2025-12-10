@@ -10,9 +10,10 @@ import { INITIAL_TRANSACTIONS, INITIAL_ACCOUNTS } from './constants';
 
 const App: React.FC = () => {
   const [view, setView] = useState<ViewState>('dashboard');
-  
+  console.log("Current View:", view);
   // Transactions State
   const [transactions, setTransactions] = useState<Transaction[]>(() => {
+    setView('dashboard');
     const saved = localStorage.getItem('financeFlowTransactions');
     if (saved) {
       try {
